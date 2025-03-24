@@ -1,0 +1,6 @@
+train: data_annotation/train/images
+val: data_annotation/valid/images
+test: data_annotation/test/images
+
+nc: 1
+names: ['angkutan_kota']

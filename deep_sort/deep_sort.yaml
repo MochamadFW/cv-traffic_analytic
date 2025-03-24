@@ -1,0 +1,9 @@
+DEEPSORT:
+  REID_CKPT: "deepsort_files/ckpt.t7"  # Path to the DeepSORT model
+  MAX_DIST: 0.2  # Maximum cosine distance for matching
+  MIN_CONFIDENCE: 0.3  # Minimum detection confidence
+  NMS_MAX_OVERLAP: 0.5  # Non-maximum suppression threshold
+  MAX_IOU_DISTANCE: 0.7  # Maximum IoU distance for matching
+  MAX_AGE: 70  # Maximum number of missed frames before a track is deleted
+  N_INIT: 3  # Number of frames to confirm a track
+  NN_BUDGET: 100  # Maximum size of the appearance descriptor gallery
